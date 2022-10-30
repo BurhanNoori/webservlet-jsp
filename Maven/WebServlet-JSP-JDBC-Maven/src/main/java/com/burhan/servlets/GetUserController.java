@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 public class GetUserController extends HttpServlet {
-    public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+    public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         String user_name = (req.getParameter("user_name"));
         String user_password = (req.getParameter("password"));
         UserDao dao = new UserDao();

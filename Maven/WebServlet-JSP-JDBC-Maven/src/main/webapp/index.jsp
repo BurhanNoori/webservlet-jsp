@@ -9,7 +9,7 @@
     </p>
 </div>
 <div>
-    <form action="getUser" >
+    <form method = "POST" action="getUser" >
         <label>User Name</label>
         <input type="text" name="user_name"><br>
         <label>Password</label>
